@@ -19,7 +19,7 @@ public class Tests
     public void Setup()
     {
         this.driver = new EdgeDriver();
-        this.driver.Url = "http://192.168.56.3:8088/"; //set my url
+        this.driver.Url = "http://192.168.56.3:8080/"; //set my url
     }
 
     [Test]
